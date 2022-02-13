@@ -9,7 +9,7 @@ sudo apt-get update -y
 sudo apt-get install xubuntu-core -y
 sudo apt-get install x2goserver x2goserver-xsession -y
 sudo apt-get install xfce4-terminal -y
-sudo update-alternatives --config x-terminal-emulator
+#sudo update-alternatives --config x-terminal-emulator
 
 # INSTALL PYTHON
 sudo apt install python3.8 -y
