@@ -43,7 +43,7 @@ cp -r f/google-chrome /opt/google/chrome
 # Bot
 git clone https://github.com/Dif71/bv.git
 
-
-echo "==[Done]=="
-
+echo ""
+echo " == [Done] == "
+echo ""
 
