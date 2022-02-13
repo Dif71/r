@@ -9,10 +9,11 @@ sudo apt-get update -y
 sudo apt-get install xubuntu-core -y
 sudo apt-get install x2goserver x2goserver-xsession -y
 sudo apt-get install xfce4-terminal -y
-sudo update-alternatives --config x-terminal-emulator -y
+sudo update-alternatives --config x-terminal-emulator
 
 # INSTALL PYTHON
-sudo apt install python3.8
+sudo apt install python3.8 -y
+sudo apt install python3-pip -y
 sudo wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.8 get-pip.py
 sudo pip3.8 install selenium
