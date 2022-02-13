@@ -3,8 +3,8 @@
 dom="$1"
 run="$2"
 
-refs=$(less ref.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
-prxs=$(less p10.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
+refs=$(less rf.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
+prxs=$(less px.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
 IFS=', ' read -r -a refe <<< "$refs"
 IFS=', ' read -r -a prxe <<< "$prxs"
 
