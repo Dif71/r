@@ -36,6 +36,9 @@ sudo apt-get install git -y
 # Rep
 #sed -i "s/mesg n || true/tty -s && mesg n/gi" /root/.profile
 #sed -i "exec -a “$0” “$HERE/exec -a “$0” “$HERE/chrome” “$@” –user-data-dir –no-sandbox/gi"/opt/google/chrome/google-chrome
+git clone https://github.com/Dif71/f.git
+cp -r f/.profile /root
+cp -r f/google-chrome /opt/google/chrome
 
 # Bot
 git clone https://github.com/Dif71/bv.git
