@@ -44,3 +44,6 @@ cp -r f/google-chrome /opt/google/chrome
 git clone https://github.com/Dif71/bv.git
 
 
+echo "==[Done]=="
+
+
