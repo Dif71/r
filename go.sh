@@ -22,10 +22,8 @@ elif [ $run == "p" ]; then
 		idx=$(($cou % $tref))
 		# echo "$cou. $prx"
 		echo "python3.8 crawl.py -t $dom -r ${refe[$idx]} -p $prx"
-		
 		# python3.8 crawl.py -t "$dom" -r "${refe[$cou]}" -p "$prx"
 		
-		# echo "$(( ( RANDOM % 10 )  + 3 ))"
 		dly=$(shuf -i 3-10 -n 1)
 		echo "$dly"
 		# sleep 3
