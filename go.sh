@@ -11,11 +11,11 @@ IFS=', ' read -r -a prxe <<< "$prxs"
 tref=${#refe[@]}
 tprx=${#prxe[@]}
 
-if [ "$run" == "s" ];then
+if [ "$run" -eq "s" ];then
 	echo "python3.8 crawl.py -t $dom -r ${refe[0]} -p ${prxe[0]}"
 	# python3.8 crawl.py -t "$dom" -r "${refe[0]}" -p "${prxe[0]}"
 
-elif [ "$run" == "p" ]; then
+elif [ "$run" -eq "p" ]; then
 	cou=1
 	for prx in "${prxe[@]}"
 	do
