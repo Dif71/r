@@ -32,5 +32,6 @@ elif [ "$go" == "p" ]; then
 
 else
 	echo "Set par 2!"
+	echo "$go"
 	exit 0
 fi
