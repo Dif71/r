@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dom="$1"
-run="$2"
+go="$2"
 
 refs=$(less rf.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
 prxs=$(less px.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
@@ -11,11 +11,11 @@ IFS=', ' read -r -a prxe <<< "$prxs"
 tref=${#refe[@]}
 tprx=${#prxe[@]}
 
-if [ $run == "s" ]; then
+if [ "$go" == "s" ]; then
 	echo "python3.8 crawl.py -t $dom -r ${refe[0]} -p ${prxe[0]}"
 	# python3.8 crawl.py -t "$dom" -r "${refe[0]}" -p "${prxe[0]}"
 
-elif [ $run == "p" ]; then
+elif [ "$go" == "p" ]; then
 	cou=1
 	for prx in "${prxe[@]}"
 	do
