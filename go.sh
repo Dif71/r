@@ -21,17 +21,17 @@ elif [ "$go" == "p" ]; then
 	do
 		idx=$(($cou % $tref))
 		# echo "$cou. $prx"
-		echo "python3.8 crawl.py -t $dom -r ${refe[$idx]} -p $prx"
+		echo "$cou. python3.8 crawl.py -t $dom -r ${refe[$idx]} -p $prx"
 		# python3.8 crawl.py -t "$dom" -r "${refe[$cou]}" -p "$prx"
 		
 		dly=$(shuf -i 3-10 -n 1)
-		echo "$dly"
+		# echo "$dly"
 		# sleep 3
 		((cou++))
 	done
 
 else
 	echo "Set par 2!"
-	echo "$go"
+	# echo "$go"
 	exit 0
 fi
