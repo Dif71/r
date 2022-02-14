@@ -14,6 +14,7 @@ sudo apt-get install xfce4-terminal -y
 # INSTALL PYTHON
 sudo apt install python3.8 -y
 sudo apt install python3-pip -y
+sudo apt-get install python3-tk python3-dev -y
 sudo wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.8 get-pip.py
 sudo pip3.8 install selenium
