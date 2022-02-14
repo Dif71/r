@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dom="$1"
-go="$2"
+dom=$1
+go=$2
 
 refs=$(less rf.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
 prxs=$(less px.txt | shuf | sed -e ':a;N;$!ba;s/\n/,/g')
