@@ -35,3 +35,10 @@ else
 	# echo "$go"
 	exit 0
 fi
+
+echo ""
+echo -e " == [\e[32mRunning\e[0m] == "
+echo ""
+
+
+
