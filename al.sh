@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dom="$1"
-run="$s2"
+run="$2"
 
 curl https://raw.githubusercontent.com/Dif71/r/main/ins.sh | bash
 cd /root/bv
