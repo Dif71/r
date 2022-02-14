@@ -43,7 +43,6 @@ sudo cp -r f/google-chrome /opt/google/chrome
 git clone https://github.com/Dif71/bv.git
 
 echo ""
-echo " == [Done] == "
 echo -e "== [\e[32mInstalled\e[0m] =="
 echo ""
 
