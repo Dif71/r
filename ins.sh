@@ -29,7 +29,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://chromedriver.storage.googleapis.com/98.0.4758.80/chromedriver_linux64.zip
 sudo apt-get install unzip -y
 unzip chromedriver_linux64.zip
-sudo cp -r chromedriver /usr/bin/
+cp -r chromedriver /usr/bin/
 
 # Git
 sudo apt-get install git -y
