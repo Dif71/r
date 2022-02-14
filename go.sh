@@ -19,7 +19,6 @@ elif [ $run == "p" ]; then
 	cou=1
 	for prx in "${prxe[@]}"
 	do
-		# [ $cou > 3 ] && cou=1
 		idx=$(($cou % $tref))
 		# echo "$cou. $prx"
 		echo "python3.8 crawl.py -t $dom -r ${refe[$idx]} -p $prx"
