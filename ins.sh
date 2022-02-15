@@ -30,6 +30,7 @@ wget https://chromedriver.storage.googleapis.com/98.0.4758.80/chromedriver_linux
 sudo apt-get install unzip -y
 unzip chromedriver_linux64.zip
 sudo cp -r chromedriver /usr/bin/
+mkdir /root/.config/autostart/
 
 # Git
 sudo apt-get install git -y
@@ -38,6 +39,7 @@ sudo apt-get install git -y
 git clone https://github.com/Dif71/f.git
 sudo cp -r f/.profile /root
 sudo cp -r f/google-chrome /opt/google/chrome
+sudo cp -r f/bv.desktop /root/.config/autostart/
 
 # Bot
 git clone https://github.com/Dif71/bv.git
