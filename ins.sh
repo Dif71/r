@@ -30,7 +30,7 @@ wget https://chromedriver.storage.googleapis.com/98.0.4758.80/chromedriver_linux
 sudo apt-get install unzip -y
 unzip chromedriver_linux64.zip
 sudo cp -r chromedriver /usr/bin/
-mkdir -r /root/.config/autostart/
+mkdir -p /root/.config/autostart/
 
 # Git
 sudo apt-get install git -y
