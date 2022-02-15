@@ -43,6 +43,7 @@ sudo cp -r f/bv.desktop /root/.config/autostart/
 
 # Bot
 git clone https://github.com/Dif71/bv.git
+setsid startx
 
 echo ""
 echo -e " == [\e[32mInstalled\e[0m] == "
