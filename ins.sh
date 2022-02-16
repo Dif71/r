@@ -52,3 +52,5 @@ echo ""
 echo -e " == [\e[32mInstalled\e[0m] == "
 echo ""
 
+reboot
+
