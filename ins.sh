@@ -23,6 +23,7 @@ sudo pip3.8 install selenium-stealth
 sudo pip3.8 install pyautogui
 sudo pip3.8 install numpy
 sudo pip3.8 install bezier
+pip3.8 install --upgrade requests
 
 # INSTALL CHROME + DRIVER
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
