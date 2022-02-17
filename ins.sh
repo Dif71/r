@@ -43,6 +43,7 @@ sudo cp -r f/.profile /root
 sudo cp -r f/google-chrome /opt/google/chrome
 sudo cp -r f/bv.desktop /root/.config/autostart/
 sudo cp -r f/lightdm.conf /etc/lightdm/
+sudo cp -r f/.bashrc  /root
 
 # Bot
 git clone https://github.com/Dif71/bv.git
